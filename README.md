@@ -2,6 +2,8 @@
 
 Just a simple script that takes a folder full of files with explicit absolute numbers, and renames them to TVDB Seasons.
 
+Requires jq to be installed (at the moment) to parse JSON output. Also requires Curl.
+
 Run in the directory with the files in, as so:
 
 ./tvdb-organiser.sh SERIESID filetype
